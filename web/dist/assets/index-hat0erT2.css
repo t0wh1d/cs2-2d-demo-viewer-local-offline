@@ -9901,3 +9901,52 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.grid-item.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.map-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item.map {
+  flex-direction: column !important;
+}
+
+.timer-container {
+  width: 100%;
+}
+.round-nav-container {
+  width: 100%;
+}
+
+.timer-container {
+  width: 100%;
+}
+.round-nav-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.controls-container {
+  margin: 0;
+  padding: 0;
+}
+
+.timer-container {
+  width: 100%;
+}
+.round-nav-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.controls-container {
+  margin: 0;
+  padding: 0;
+}

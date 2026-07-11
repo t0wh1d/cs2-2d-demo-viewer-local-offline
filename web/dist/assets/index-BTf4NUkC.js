@@ -19535,6 +19535,7 @@ function xu() {
             }),
             K(`div`, {
               className: `grid-item map`,
+              children: [K(du, { messageBus: i }), K(lu, { messageBus: i })],
               children: K(lu, { messageBus: i }),
             }),
             K(`div`, {
@@ -19547,6 +19548,14 @@ function xu() {
             K(`div`, {
               className: `grid-item bottom-panel`,
               children: [
+                K(pu, { messageBus: i }),
+                K(`div`, {
+                  className: `controls-row`,
+                  style: {
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "100%",
+                  },
                 K(du, { messageBus: i }),
                 K(pu, { messageBus: i }),
                 K(`div`, {
